@@ -16,18 +16,15 @@
         <form >
             <h2 class="m-3">Currency Convertor</h2>
             <label for="amount">Enter Amount</label>
-            <input type="text" value="100">
+            <input type="text" value="1" id="amount">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
-                            <div class="dropdown">
+                            <div>
                                 <div class="from">
                                     <p class="m-3">From</p>
                                     <img src="https://flagsapi.com/US/flat/64.png">
-                                    <select name="from" id="">
-                                        <option value="">USD</option>
-                                        <option value="">INR</option>
-                                        <option value="">AUD</option>
+                                    <select name="from" id="" class="dropdown">
                                     </select>
                                 </div>
                             </div>
@@ -39,10 +36,8 @@
                             <div class="to">
                                 <p class="m-3">To</p>
                                 <img src="https://flagsapi.com/IN/flat/64.png">
-                                <select name="from" id="">
-                                    <option value="">USD</option>
-                                    <option value="">INR</option>
-                                    <option value="">AUD</option>
+                                <select name="to" id="" class="dropdown">
+                                    
                                 </select>
                             </div>
                         </div>
@@ -55,6 +50,7 @@
         </div>
         </center>
     </div>
+    <script src="code.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
