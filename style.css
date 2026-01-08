@@ -60,6 +60,7 @@ select{
     font-size:18px;
     font-weight:bold;
     text-align: center;
+    cursor: pointer;
 
 }
 
@@ -82,4 +83,5 @@ select{
 #submit-btn:hover{
     background-color: rgb(105, 89, 77);
     transform: scale(1.2);
+    cursor: pointer;
 }
