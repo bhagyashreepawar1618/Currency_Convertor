@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color:rgb(159, 128, 226);
+    background-image: url("./background.webp");
+    background-size: cover;
     display:flex;
     justify-content: center;
     align-items: center;
